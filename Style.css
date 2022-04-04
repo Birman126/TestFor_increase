@@ -1,0 +1,98 @@
+#grid { 
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(10, [col] 1fr);
+    grid-gap: 2vw;
+    }
+#grid1 { 
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr;
+    grid-gap: 2vw;
+    
+
+    }  
+#grid > grid-item {
+    font-size: 14pt;
+    padding: .5em;
+    background: rgb(158, 158, 158);
+    text-align: center;
+    
+  }
+#grid > grid-head {
+    font-size: 14pt;
+    padding: .5em;
+    background: rgb(200, 200, 200);
+    
+    grid-column: span 10;
+    
+    
+  }
+#grid > div {
+    font-size: 14pt;
+    padding: .5em;
+    background: rgb(200, 200, 200);
+    min-height: 200px;
+    min-width: 100px;  
+    grid-column: span 2;
+  } 
+#grid1 > div {
+    font-size: 14pt;
+    padding: .5em;
+    background: grey;
+    text-align: right;
+    color: white
+  
+  } 
+#grid > grid-end {
+    font-size: 14pt;
+    padding: .5em;
+    background: rgb(200, 200, 200);
+    text-align: justify;
+    grid-column: span 5; 
+  }
+#grid > grid-end1 {
+    font-size: 14pt;
+    padding: .5em;
+    background: rgb(200, 200, 200);
+    text-align: justify;
+    grid-column: 1/span 5;
+     
+  }  
+
+#grid2 { 
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-gap: 2vw;
+    
+    } 
+
+#grid3 { 
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 2vw;
+      } 
+#grid3 > div2 {
+        font-size: 14pt;
+        padding: .5em;
+        background: grey;
+        
+        } 
+#grid3 > div1 {
+        font-size: 14pt;
+        color: white;
+        padding: .5em;
+        background: grey;
+        grid-row: span 2; 
+      } 
+#grid2 > grid-item-left {
+        font-size: 14pt;
+        padding: .5em;  
+                
+}  
+
+#list {
+  background-color: grey;
+  color: white;
+}
+
+
